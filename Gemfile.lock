@@ -89,6 +89,10 @@ GEM
       faraday (> 0.8, < 2.0)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2020.6)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
 
 PLATFORMS
@@ -98,6 +102,8 @@ DEPENDENCIES
   bundler
   minimal-mistakes-jekyll!
   rake (>= 12.3.3)
+  tzinfo
+  tzinfo-data
 
 BUNDLED WITH
    2.2.4

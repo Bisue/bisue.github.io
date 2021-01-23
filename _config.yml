@@ -20,7 +20,7 @@ title: "Bisue"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Chanhyuk, Byeon"
-description: "Chanhyuk's portfolio."
+description: "Full Stack, Multi Platform Developer"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,7 +94,7 @@ analytics:
 author:
   name: "Chanhyuk, Byeon"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Web full-stack developer, and Game developer."
+  bio: "Full Stack, Multi Platform Developer"
   location: "Seoul, Republic of Korea"
   email: "bdu00chch@gmail.com"
   links:
@@ -128,10 +128,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/Bisue
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/Bisue"
+      # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:

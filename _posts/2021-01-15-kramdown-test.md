@@ -1,8 +1,8 @@
 ---
 date: 2021-01-15
 title: "Post 테스트"
-categories: blog
-tags: jekyll
+categories: tests
+tags: markdown
 # 목차
 toc: true
 toc_sticky: true
