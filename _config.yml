@@ -101,9 +101,9 @@ author:
     - label: 'Email'
       icon: 'fas fa-fw fa-envelope-square'
       # url: "mailto:your.name@email.com"
-    - label: 'Website'
+    - label: 'Bisue.NET'
       icon: 'fas fa-fw fa-link'
-      # url: "https://your-website.com"
+      url: 'https://bisue.net'
     - label: 'Twitter'
       icon: 'fab fa-fw fa-twitter-square'
       # url: "https://twitter.com/"
@@ -138,6 +138,9 @@ footer:
     - label: 'Instagram'
       icon: 'fab fa-fw fa-instagram'
       # url:
+    - label: 'Bisue.NET'
+      icon: 'fas fa-fw fa-campground'
+      url: https://bisue.net
 
 # Reading Files
 include:
