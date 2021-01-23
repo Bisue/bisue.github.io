@@ -1,6 +1,6 @@
 ---
 date: 2021-01-23
-title: "Let's encrypt Certbot으로 발급받고 적용하기"
+title: "Let's encrypt Certbot으로 무료 SSL 발급받고 적용하기"
 categories: ssl
 tags: ssl
 # 목차
