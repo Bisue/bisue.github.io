@@ -197,7 +197,7 @@ Vue로 재사용가능한 Chat 컴포넌트를 만든다.
 
 ### ChatApp.vue
 
-``` js
+``` vue
 <template>
   <div class="chat">
     <div class="chat-list">
