@@ -20,7 +20,7 @@ title: 'Bisue'
 title_separator: '-'
 subtitle: # site tagline that appears below site title in masthead
 name: 'Chanhyuk, Byeon'
-description: 'Full-stack developer using Laravel, Vue, Electron, C#.'
+description: 'Full-stack developer loves Laravel, Vue, Electron, C#.'
 url: 'https://bisue.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: 'Bisue/bisue.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,7 +94,7 @@ analytics:
 author:
   name: 'Chanhyuk, Byeon'
   avatar: '/assets/img/avatar.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: 'Full-stack developer using Laravel, Vue, Electron, C#.'
+  bio: 'Full-stack developer loves Laravel, Vue, Electron, C#.'
   location: 'Seoul, Republic of Korea'
   email: 'bdu00chch@gmail.com'
   links:
