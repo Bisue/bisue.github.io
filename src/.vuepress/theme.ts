@@ -11,7 +11,7 @@ export default hopeTheme({
     email: "bdu00chch@gmail.com",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   logo: "/logo.svg",
 

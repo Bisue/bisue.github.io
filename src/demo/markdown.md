@@ -1,6 +1,6 @@
 ---
 title: Markdown Enhance
-icon: markdown
+icon: quote-right
 order: 2
 category:
   - Guide

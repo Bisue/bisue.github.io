@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: circle-info
 ---
 
 # Intro Page

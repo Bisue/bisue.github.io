@@ -4,7 +4,7 @@ export const koSidebar = sidebar({
   "/": [
     "",
     {
-      icon: "discover",
+      icon: "globe",
       text: "데모",
       prefix: "demo/",
       link: "demo/",
@@ -12,7 +12,7 @@ export const koSidebar = sidebar({
     },
     {
       text: "게시글",
-      icon: "note",
+      icon: "book",
       prefix: "posts/",
       children: "structure",
     },

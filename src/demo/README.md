@@ -1,7 +1,7 @@
 ---
 title: Features Demo
 index: false
-icon: discover
+icon: globe
 category:
   - Guide
 ---

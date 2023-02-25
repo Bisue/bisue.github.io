@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: house
 title: 메인
 heroImage: /logo_black.svg
 bgImage: /assets/hero.jpg
@@ -9,7 +9,7 @@ heroText: 비수의 개발 창고
 tagline: 여러가지 개발 경험을 담은 창고
 heroFullScreen: true
 projects:
-  - icon: project
+  - icon: briefcase
     name: project name
     desc: project detailed description
     link: https://your.project.link
@@ -24,12 +24,12 @@ projects:
     desc: Detailed description of the book
     link: https://link.to.your.book
 
-  - icon: article
+  - icon: blog
     name: article name
     desc: Detailed description of the article
     link: https://link.to.your.article
 
-  - icon: friend
+  - icon: user-group
     name: friend name
     desc: Detailed description of friend
     link: https://link.to.your.friend

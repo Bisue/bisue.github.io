@@ -1,6 +1,6 @@
 ---
 title: Slide page
-icon: slides
+icon: display
 layout: Slide
 ---
 
