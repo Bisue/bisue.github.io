@@ -1,5 +1,6 @@
 ---
 title: Disabling layout and features
+author: 가이드
 icon: gear
 order: 3
 category:

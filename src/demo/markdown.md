@@ -1,5 +1,6 @@
 ---
 title: Markdown Enhance
+author: 가이드
 icon: quote-right
 order: 2
 category:
