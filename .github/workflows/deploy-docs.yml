@@ -1,11 +1,10 @@
-
 name: Deploy Docs
 
 on:
   push:
     branches:
       # make sure this is the branch you are using
-      - main
+      - master
 
 jobs:
   deploy-gh-pages:
@@ -17,8 +16,6 @@ jobs:
           fetch-depth: 0
           # if your docs needs submodules, uncomment the following line
           # submodules: true
-
-
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
