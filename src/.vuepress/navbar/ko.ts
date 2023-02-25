@@ -23,9 +23,4 @@ export const koNavbar = navbar([
     //   },
     // ],
   },
-  {
-    text: "V2 문서",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/",
-  },
 ]);
