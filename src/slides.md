@@ -1,5 +1,6 @@
 ---
 title: Slide page
+author: 가이드
 icon: display
 layout: Slide
 ---
