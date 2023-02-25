@@ -1,17 +1,17 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export const zhSidebar = sidebar({
-  "/zh/": [
+export const koSidebar = sidebar({
+  "/": [
     "",
     {
-      text: "如何使用",
-      icon: "creative",
+      icon: "discover",
+      text: "데모",
       prefix: "demo/",
       link: "demo/",
       children: "structure",
     },
     {
-      text: "文章",
+      text: "게시글",
       icon: "note",
       prefix: "posts/",
       children: "structure",

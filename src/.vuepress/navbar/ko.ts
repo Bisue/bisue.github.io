@@ -1,36 +1,36 @@
 import { navbar } from "vuepress-theme-hope";
 
-export const zhNavbar = navbar([
-  "/zh/",
-  { text: "演示", icon: "discover", link: "/zh/demo/" },
+export const koNavbar = navbar([
+  "/",
+  { text: "데모", icon: "discover", link: "/demo/" },
   {
-    text: "博文",
+    text: "게시글",
     icon: "edit",
-    prefix: "/zh/posts/",
+    prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "사과",
         icon: "edit",
         prefix: "apple/",
         children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
+          { text: "사과 1", icon: "edit", link: "1" },
+          { text: "사과 2", icon: "edit", link: "2" },
           "3",
           "4",
         ],
       },
       {
-        text: "香蕉",
+        text: "바나나",
         icon: "edit",
         prefix: "banana/",
         children: [
           {
-            text: "香蕉 1",
+            text: "바나나 1",
             icon: "edit",
             link: "1",
           },
           {
-            text: "香蕉 2",
+            text: "바나나 2",
             icon: "edit",
             link: "2",
           },
@@ -38,15 +38,15 @@ export const zhNavbar = navbar([
           "4",
         ],
       },
-      { text: "樱桃", icon: "edit", link: "cherry" },
-      { text: "火龙果", icon: "edit", link: "dragonfruit" },
+      { text: "체리", icon: "edit", link: "cherry" },
+      { text: "용과", icon: "edit", link: "dragonfruit" },
       "tomato",
       "strawberry",
     ],
   },
   {
-    text: "V2 文档",
+    text: "V2 문서",
     icon: "note",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://theme-hope.vuejs.press/",
   },
 ]);
