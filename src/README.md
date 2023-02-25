@@ -2,10 +2,10 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: 메인
 heroImage: /logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+heroText: 비수의 개발 창고
+tagline: 여러가지 개발 경험을 담은 창고
 heroFullScreen: true
 projects:
   - icon: project
@@ -38,7 +38,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+# footer: customize your footer text
 ---
 
 This is a blog home page demo.
