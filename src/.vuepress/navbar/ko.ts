@@ -2,7 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export const koNavbar = navbar([
   "/",
-  { text: "데모", icon: "globe", link: "/demo/" },
   {
     text: "게시글",
     icon: "pen-to-square",
