@@ -3,7 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: 메인
-heroImage: /logo.svg
+heroImage: /logo_black.svg
+bgImage: /assets/hero.jpg
 heroText: 비수의 개발 창고
 tagline: 여러가지 개발 경험을 담은 창고
 heroFullScreen: true
