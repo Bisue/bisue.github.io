@@ -83,6 +83,11 @@ export default hopeTheme({
         home: "메인으로",
       },
 
+      paginationLocales: {
+        navigate: "페이지",
+        action: "이동",
+      },
+
       encryptLocales: {
         placeholder: "비밀번호 입력",
       },
