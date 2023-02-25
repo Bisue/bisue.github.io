@@ -10,34 +10,19 @@ tagline: 여러가지 개발 경험을 담은 창고
 heroFullScreen: true
 projects:
   - icon: briefcase
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+    name: Laravel Wrapper
+    desc: 분양 사이트를 위한 관심고객등록, 당첨자조회 등 관리자 콘솔 시스템
+    link: https://github.com/OKKorea21/LaravelWrapper
+
+  - icon: briefcase
+    name: 은평알리미
+    desc: 은평구 지역 소식 공유 플랫폼
+    link: https://epalimi.com
 
   - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
-
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
-
-  - icon: blog
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
-
-  - icon: user-group
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
-
-  - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
+    name: Github
+    desc: 깃허브 프로필
+    link: https://github.com/Bisue
 
 # footer: customize your footer text
 ---
