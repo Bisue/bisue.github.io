@@ -37,7 +37,7 @@ export default hopeTheme({
     "/": {
       // navbar
       navbar: koNavbar,
-      logo: "/assets/icon/cube.svg",
+      logo: "/logo.svg",
       repo: "https://github.com/Bisue/bisue.github.io",
 
       // sidebar
@@ -63,6 +63,8 @@ export default hopeTheme({
         category: "카테고리",
         tag: "태그",
         timeline: "타임라인",
+        all: "전체",
+        star: "고정글",
       },
     },
   },
