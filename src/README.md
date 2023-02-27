@@ -24,5 +24,10 @@ projects:
     desc: 깃허브 프로필
     link: https://github.com/Bisue
 
+head:
+  - - meta
+    - name: google-site-verification
+      content: lW11DhafrMDMpQ0JqrOxwzP4bNCiGUy2EmRn2U1F_wI
+
 # footer: customize your footer text
 ---
