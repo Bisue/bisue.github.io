@@ -6,6 +6,11 @@ export default defineUserConfig({
   base: "/",
 
   lang: "ko-KR",
+  locales: {
+    "/": {
+      lang: "ko-KR",
+    },
+  },
 
   head: [
     // Link google fonts - korean supported fonts

@@ -55,20 +55,20 @@ export default hopeTheme({
       metaLocales: {
         author: "작성자",
         lastUpdated: "마지막 수정",
-        readingTime: "소요 시간",
-        editLink: "페이지 수정",
-        toc: "목차",
+        readingTime: "읽는 시간",
+        toc: "이 페이지에서",
+        date: "작성일",
       },
 
       blogLocales: {
-        article: "글",
+        article: "게시글",
         articleList: "글 목록",
         category: "카테고리",
         tag: "태그",
         timeline: "타임라인",
         timelineTitle: "히스토리",
         all: "전체",
-        intro: "소개",
+        intro: "프로필",
         star: "스타",
       },
 
@@ -79,7 +79,7 @@ export default hopeTheme({
           "4-0-4 입니다.",
           "깨진 링크가 있는 것 같습니다.",
         ],
-        back: "뒤로",
+        back: "뒤로가기",
         home: "메인으로",
       },
 
