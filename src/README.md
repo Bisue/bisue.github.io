@@ -6,7 +6,7 @@ title: 메인
 heroImage: /logo_black.svg
 bgImage: /assets/hero.jpg
 heroText: 비수의 개발 창고
-tagline: 여러가지 개발 경험을 담은 창고
+tagline: 잡다한 개발 경험을 담은 블로그
 heroFullScreen: true
 projects:
   - icon: briefcase
