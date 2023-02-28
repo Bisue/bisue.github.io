@@ -4,6 +4,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   title: "비수의 개발 창고",
+  description: "잡다한 개발 경험을 담은 블로그",
   base: "/",
 
   lang: "ko-KR",
