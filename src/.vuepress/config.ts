@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -44,6 +45,24 @@ export default defineUserConfig({
   plugins: [
     googleAnalyticsPlugin({
       id: "G-MJL2XKVJ5B",
+    }),
+    searchProPlugin({
+      // index all contents
+      indexContent: true,
+      // hotkey
+      hotKeys: [{ key: "f", ctrl: true }],
+      // add supports for category and tags
+      customFields: [
+        {
+          getter: (page) =>
+            page.frontmatter.category as string | string[] | null,
+          formatter: "카테고리 - $content",
+        },
+        {
+          getter: (page) => page.frontmatter.tag as string | string[] | null,
+          formatter: "태그 - $content",
+        },
+      ],
     }),
   ],
 
