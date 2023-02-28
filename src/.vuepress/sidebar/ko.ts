@@ -10,6 +10,11 @@ export const koSidebar = sidebar({
       link: "/category/",
     },
     {
+      text: "프로젝트",
+      icon: "layer-group",
+      link: "/projects/",
+    },
+    {
       text: "게시글",
       icon: "list-ul",
       prefix: "posts/",
