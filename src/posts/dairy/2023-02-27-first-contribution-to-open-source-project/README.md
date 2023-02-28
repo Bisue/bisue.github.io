@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: pen
 date: 2023-02-27
 category:
   - 개발 일기

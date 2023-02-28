@@ -1,6 +1,6 @@
 ---
 title: 게시글
-icon: pen-to-square
+icon: list-ul
 index: false
 article: false
 timeline: false

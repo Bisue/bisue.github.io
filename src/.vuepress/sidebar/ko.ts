@@ -6,7 +6,7 @@ export const koSidebar = sidebar({
     "intro",
     {
       text: "게시글",
-      icon: "book",
+      icon: "list-ul",
       prefix: "posts/",
       children: "structure",
     },

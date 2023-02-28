@@ -5,7 +5,7 @@ export const koNavbar = navbar([
   "/intro",
   {
     text: "게시글",
-    icon: "pen-to-square",
+    icon: "list-ul",
     link: "/posts/",
     // prefix: "/posts/",
     // children: [
