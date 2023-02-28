@@ -31,7 +31,9 @@ export default hopeTheme({
     },
   },
 
-  fullscreen: true,
+  darkmode: "enable",
+
+  fullscreen: false,
 
   locales: {
     "/": {
