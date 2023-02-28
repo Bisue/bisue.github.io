@@ -101,6 +101,10 @@ export default hopeTheme({
   },
 
   plugins: {
+    seo: {
+      fallBackImage: "/thumb.png",
+    },
+
     blog: true,
 
     comment: {

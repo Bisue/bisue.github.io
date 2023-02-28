@@ -2,12 +2,13 @@
 home: true
 layout: BlogHome
 icon: house
-title: 메인
+title: 비수의 개발 창고
 heroImage: /logo_black.svg
 bgImage: /assets/hero.jpg
 heroText: 비수의 개발 창고
 tagline: 잡다한 개발 경험을 담은 블로그
 heroFullScreen: true
+description: 잡다한 개발 경험을 담은 블로그
 projects:
   - icon: briefcase
     name: Laravel Wrapper
