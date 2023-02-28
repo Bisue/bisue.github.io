@@ -4,6 +4,11 @@ export const koNavbar = navbar([
   "/",
   "/intro",
   {
+    text: "카테고리",
+    icon: "table",
+    link: "/category/",
+  },
+  {
     text: "게시글",
     icon: "list-ul",
     link: "/posts/",
