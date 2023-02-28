@@ -1,5 +1,8 @@
 ---
 icon: user
+index: false
+article: false
+timeline: false
 ---
 
 # 프로필
