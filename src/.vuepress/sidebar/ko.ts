@@ -12,7 +12,20 @@ export const koSidebar = sidebar({
     {
       text: "프로젝트",
       icon: "layer-group",
-      link: "/projects/",
+      // link: "/projects/",
+      prefix: "/projects",
+      children: [
+        {
+          text: "LaravelWrapper",
+          icon: "layer-group",
+          link: "/laravel-wrapper",
+        },
+        {
+          text: "은평알리미",
+          icon: "layer-group",
+          link: "/epalimi",
+        },
+      ],
     },
     {
       text: "게시글",
