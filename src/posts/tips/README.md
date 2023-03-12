@@ -1,8 +1,9 @@
 ---
 title: 개발 팁
-icon: list-ul
+icon: rectangle-list
 article: false
 timeline: false
+index: false
 ---
 
 <AutoCatalog />

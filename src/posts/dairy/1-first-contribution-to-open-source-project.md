@@ -30,12 +30,12 @@ star: true
 부랴부랴 한국어 dayjs locale object를 추가하고 짧은 영어로 번역기 돌려가며 떠듬떠듬 PR을 남겼다.  
 (PR 템플릿이 따로 있나 찾아봤는데 해당 레포지토리에서는 따로 없는 것 같았다. 적당히 예쁘게 나눠서 적었다..)
 
-![나의 첫 Pull Request](./pr.png)
+![나의 첫 Pull Request](./1-first-contribution-to-open-source-project/pr.png)
 
 밤 늦게 PR을 올려서 내일 쯤에 확인하려 했는데 바로 댓글이 달렸다.  
 나중에 보니 테마 개발자가 중국인 개발자 분이였는데 시간대가 우리나라보다 1시간 느렸었다.
 
-![테마 개발자 댓글](./comment.png)
+![테마 개발자 댓글](./1-first-contribution-to-open-source-project/comment.png)
 
 테마의 한국어 i18n이 번역기로 만들었었나보다.  
 이 블로그를 만들 때도 약간 어색한 텍스트가 있어서 설정 파일에서만 수정해서 쓰고 있었는데,
@@ -43,7 +43,7 @@ star: true
 
 ### 머지 완료!
 
-![머지 완료!](./merged.png)
+![머지 완료!](./1-first-contribution-to-open-source-project/merged.png)
 
 테마 개발자가 리뷰 해준 뒤에 이것저것 테스트랑 린터가 돌아가더니 내 PR이 머지되었다!
 

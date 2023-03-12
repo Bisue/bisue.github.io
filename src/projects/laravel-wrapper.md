@@ -72,11 +72,11 @@ timeline: false
 
 ## 스크린샷
 
-!['Laravel Wrapper' 관리자 콘솔 [메인페이지]](./screenshot1.png)
+!['Laravel Wrapper' 관리자 콘솔 [메인페이지]](./laravel-wrapper/screenshot1.png)
 
-!['Laravel Wrapper' 관리자 콘솔 [관심고객 관리]](./screenshot2.png)
+!['Laravel Wrapper' 관리자 콘솔 [관심고객 관리]](./laravel-wrapper/screenshot2.png)
 
-!['Laravel Wrapper' 관리자 콘솔 [당첨자 관리]](./screenshot3.png)
+!['Laravel Wrapper' 관리자 콘솔 [당첨자 관리]](./laravel-wrapper/screenshot3.png)
 
 ## 링크
 

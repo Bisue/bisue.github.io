@@ -43,7 +43,7 @@ timeline: false
 
 ## 스크린샷
 
-!['은평알리미' 메인페이지](./screenshot.png)
+!['은평알리미' 메인페이지](./epalimi/screenshot.png)
 
 ## 링크
 

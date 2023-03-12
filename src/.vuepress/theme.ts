@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { koNavbar } from "./navbar/index.js";
-import { koSidebar } from "./sidebar/index.js";
+import { koSidebarConfig } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://bisue.github.io",
@@ -19,10 +19,13 @@ export default hopeTheme({
 
   docsDir: "docs",
 
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag"],
+
   blog: {
     avatar: "https://avatars.githubusercontent.com/u/40070436?v=4",
     roundAvatar: true,
-    sidebarDisplay: "always",
+    // sidebarDisplay: "always",
+    articleInfo: ["Author", "Original", "Date", "Category", "Tag"],
     medias: {
       GitHub: "https://github.com/Bisue",
       // Instagram: "https://example.com",
@@ -43,7 +46,7 @@ export default hopeTheme({
       repo: "https://github.com/Bisue/bisue.github.io",
 
       // sidebar
-      sidebar: koSidebar,
+      sidebar: koSidebarConfig,
 
       // footer: "",
 
@@ -106,6 +109,8 @@ export default hopeTheme({
     seo: {
       fallBackImage: "/thumb.png",
     },
+
+    // readingTime: ,
 
     blog: true,
 
