@@ -25,6 +25,11 @@ projects:
     desc: 깃허브 프로필
     link: https://github.com/Bisue
 
+  - icon: link
+    name: Notion 페이지
+    desc: 노션 포트폴리오 페이지
+    link: https://byeonchanhyuk.notion.site/c06448ef97284072b2668f4475e13e98?pvs=4
+
 head:
   - - meta
     - name: google-site-verification
