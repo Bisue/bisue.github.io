@@ -37,7 +37,7 @@ Error: write EPROTO 6C0F0000:error:0A000152:SSL routines:final_renegotiate:unsaf
 
 프로젝트에서 보내는 모든 요청이 SSL 문제가 생긴 그 사이트 하나만을 대상으로 하기 때문에, axios 인스턴스를 따로 만들지는 않고 엔트리 포인트에서 전역적으로 설정해주었다.
 
-``` ts
+```ts
 axios.defaults.httpsAgent = new https.Agent({
     secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT,
 });
