@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+// import { hopeTheme } from "vuepress-theme-hope/perf";
 import { koNavbar } from "./navbar/index.js";
 import { koSidebarConfig } from "./sidebar/index.js";
 
