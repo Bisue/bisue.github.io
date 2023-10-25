@@ -38,6 +38,20 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
+    [
+      "script",
+      {
+        type: "text/javascript",
+        src: "//wcs.naver.net/wcslog.js",
+      },
+    ],
+    [
+      "script",
+      {
+        type: "text/javascript",
+        src: "/naver-analytics.js",
+      },
+    ],
   ],
 
   theme,
