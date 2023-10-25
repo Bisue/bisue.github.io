@@ -122,6 +122,8 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDOJCVGQM4CUdVY",
       mapping: "pathname",
+      strict: true,
+      reactionsEnabled: true,
     },
 
     // all features are enabled for demo, only preserve features you need here
