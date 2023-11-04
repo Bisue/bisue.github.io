@@ -19,6 +19,6 @@ export const koNavbar = navbar([
     text: "게시글",
     icon: "rectangle-list",
     prefix: "/posts/",
-    children: ["dairy/", "tips/", "pusher-chat-app/"],
+    children: ["dairy/", "tips/", "pusher-chat-app/", "npm-deployment/"],
   },
 ]);
