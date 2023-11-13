@@ -2,7 +2,7 @@
 icon: pen
 date: 2023-10-26
 category:
-  - 개발 팁
+  - NPM 라이브러리 배포
 tag:
   - Node
   - NPM
