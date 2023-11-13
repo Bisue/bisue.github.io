@@ -179,6 +179,10 @@ export default hopeTheme({
       dark: "vsc-dark-plus",
     },
 
+    feed: {
+      rss: true,
+    },
+
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
