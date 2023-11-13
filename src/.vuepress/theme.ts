@@ -39,6 +39,8 @@ export default hopeTheme({
 
   darkmode: "enable",
 
+  breadcrumbIcon: false,
+
   fullscreen: false,
 
   locales: {
