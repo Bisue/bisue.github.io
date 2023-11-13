@@ -6,8 +6,8 @@
     <link>https://bisue.github.io/</link>
     <description>잡다한 개발 경험을 담은 블로그</description>
     <language>ko-KR</language>
-    <pubDate>Mon, 13 Nov 2023 05:51:27 GMT</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2023 05:51:27 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Nov 2023 05:55:35 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Nov 2023 05:55:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -16,6 +16,7 @@
       <link>https://bisue.github.io/</link>
     </image>
     <category>개발 팁</category>
+    <category>NPM 라이브러리 배포</category>
     <category>개발 일기</category>
     <category>실시간 채팅 앱 만들기 (Pusher)</category>
     <item>
@@ -45,7 +46,7 @@
       <guid>https://bisue.github.io/posts/npm-deployment/1-NPM-deployment-1.html</guid>
       <source url="https://bisue.github.io/rss.xml">NPM 라이브러리 배포 - 1) 독립형</source>
       <description>NPM 라이브러리 배포 - 1) 독립형 개요 NPM 라이브러리 배포에 관심이 생겨, 배포하려는 라이브러리의 유형별로 배포 프로세스를 나름대로 정리하여 기록하려고 한다.</description>
-      <category>개발 팁</category>
+      <category>NPM 라이브러리 배포</category>
       <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> NPM 라이브러리 배포 - 1) 독립형</h1>
 <h2> 개요</h2>
