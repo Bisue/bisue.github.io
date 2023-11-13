@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 // import { hopeTheme } from "vuepress-theme-hope/perf";
 import { koNavbar } from "./navbar/index.js";
-import { koSidebarConfig } from "./sidebar/index.js";
+// import { koSidebarConfig } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://bisue.github.io",
@@ -49,7 +49,7 @@ export default hopeTheme({
       repo: "https://github.com/Bisue/bisue.github.io",
 
       // sidebar
-      sidebar: koSidebarConfig,
+      // sidebar: koSidebarConfig,
 
       // footer: "",
 
