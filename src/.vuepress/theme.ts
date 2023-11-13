@@ -173,7 +173,7 @@ export default hopeTheme({
     },
 
     prismjs: {
-      light: "vsc-dark-plus",
+      light: "vs",
       dark: "vsc-dark-plus",
     },
 
