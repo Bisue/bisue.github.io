@@ -1,4 +1,31 @@
+import { readdirSync } from "fs";
+import { resolve } from "path";
 import { navbar } from "vuepress-theme-hope";
+
+function getDirs(path: string) {
+  return readdirSync(resolve(path), { withFileTypes: true })
+    .filter((f) => f.isDirectory())
+    .map((d) => d.name);
+}
+
+function getMarkdowns(path: string) {
+  return readdirSync(resolve(path), { withFileTypes: true })
+    .filter(
+      (f) =>
+        !f.isDirectory() && f.name.endsWith(".md") && f.name !== "README.md"
+    )
+    .map((f) => f.name.replace(".md", ""));
+}
+
+const srcPath = resolve(__dirname, "../../");
+
+const categories = getDirs(resolve(srcPath, "posts"));
+
+const projects = getDirs(resolve(srcPath, "projects")).reduce((proj, type) => {
+  proj[type] = getMarkdowns(resolve(srcPath, "projects", type));
+
+  return proj;
+}, {});
 
 export const koNavbar = navbar([
   "/",
@@ -18,19 +45,19 @@ export const koNavbar = navbar([
         text: "외주",
         icon: "layer-group",
         prefix: "outsourcing/",
-        children: ["laravel-wrapper", "epalimi"],
+        children: projects["outsourcing"],
       },
       {
         text: "사이드",
         icon: "layer-group",
         prefix: "personal/",
-        children: [],
+        children: projects["personal"],
       },
       {
         text: "대학 및 공모전",
         icon: "layer-group",
         prefix: "university/",
-        children: ["reward-qna-flatform"],
+        children: projects["university"],
       },
     ],
   },
@@ -38,6 +65,6 @@ export const koNavbar = navbar([
     text: "게시글",
     icon: "rectangle-list",
     prefix: "/posts/",
-    children: ["dairy/", "tips/", "pusher-chat-app/", "npm-deployment/"],
+    children: categories,
   },
 ]);
