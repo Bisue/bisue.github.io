@@ -3,6 +3,7 @@ title: 분양사이트 솔루션(Laravel Wrapper)
 icon: layer-group
 article: false
 timeline: false
+pageInfo: false
 ---
 
 # Laravel Wrapper

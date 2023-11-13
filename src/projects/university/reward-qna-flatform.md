@@ -3,6 +3,7 @@ title: 리워드 기반 대학생 QNA 플랫폼 (2022-2)
 icon: layer-group
 article: false
 timeline: false
+pageInfo: false
 ---
 
 # 리워드 기반 대학생 QNA 플랫폼 (2022-2)
