@@ -13,7 +13,26 @@ export const koNavbar = navbar([
     icon: "layer-group",
     // link: "/projects/",
     prefix: "/projects/",
-    children: ["laravel-wrapper", "epalimi"],
+    children: [
+      {
+        text: "외주",
+        icon: "layer-group",
+        prefix: "outsourcing/",
+        children: ["laravel-wrapper", "epalimi"],
+      },
+      {
+        text: "사이드",
+        icon: "layer-group",
+        prefix: "personal/",
+        children: [],
+      },
+      {
+        text: "대학 및 공모전",
+        icon: "layer-group",
+        prefix: "university/",
+        children: ["reward-qna-flatform"],
+      },
+    ],
   },
   {
     text: "게시글",

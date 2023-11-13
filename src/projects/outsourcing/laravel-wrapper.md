@@ -1,5 +1,5 @@
 ---
-title: Laravel Wrapper
+title: 분양사이트 솔루션(Laravel Wrapper)
 icon: layer-group
 article: false
 timeline: false
@@ -24,7 +24,7 @@ timeline: false
 :::
 
 ::: note 사용 기간
-2020년 03월 ~ 
+2020년 03월 ~ (현재)
 :::
 
 ## 인원
