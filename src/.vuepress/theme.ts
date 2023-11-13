@@ -172,6 +172,11 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
+    prismjs: {
+      light: "vsc-dark-plus",
+      dark: "vsc-dark-plus",
+    },
+
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
