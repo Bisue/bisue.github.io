@@ -10,6 +10,12 @@ pageInfo: false
 
 > 은평구 지역 소식 공유 플랫폼
 
+## 스크린샷
+
+!['은평알리미' 메인페이지](./epalimi/screenshot.png)
+
+!['은평알리미' 공유 소식](./epalimi/post.png)
+
 ## 개요
 
 '은평알리미'는 협동조합 '은평공리사회적협동조합'의 요청을 받아 제작한 은평구 지역 소식 공유 플랫폼입니다.
@@ -45,10 +51,6 @@ pageInfo: false
 - Vue(partial)
 - Google Cloud Platform
 - Kakao API
-
-## 스크린샷
-
-!['은평알리미' 메인페이지](./epalimi/screenshot.png)
 
 ## 링크
 

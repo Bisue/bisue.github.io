@@ -10,6 +10,20 @@ pageInfo: false
 
 > 분양 사이트를 위한 관심고객등록, 당첨자조회 등 관리자 콘솔 시스템
 
+## 스크린샷
+
+![청약 당시 트래픽](./laravel-wrapper/traffic.png =x300)
+
+<Screenshots>
+
+<img src="./laravel-wrapper/screenshot1.png" alt="'Laravel Wrapper' 관리자 콘솔 [메인페이지]" title="'Laravel Wrapper' 관리자 콘솔 [메인페이지]"/>
+
+<img src="./laravel-wrapper/screenshot2.png" alt="'Laravel Wrapper' 관리자 콘솔 [관심고객 관리]" title="'Laravel Wrapper' 관리자 콘솔 [관심고객 관리]"/>
+
+<img src="./laravel-wrapper/screenshot3.png" alt="'Laravel Wrapper' 관리자 콘솔 [당첨자 관리]" title="'Laravel Wrapper' 관리자 콘솔 [당첨자 관리]"/>
+
+</Screenshots>
+
 ## 개요
 
 'Laravel Wrapper'는 '(주)Okkorea21'의 요청을 받아 제작한 분양 사이트 제작용 관리자 콘솔이 포함된 Laravel 기반 템플릿입니다.
@@ -75,14 +89,6 @@ pageInfo: false
 - Vue(partial)
 - Google Cloud Platform
 
-## 스크린샷
-
-!['Laravel Wrapper' 관리자 콘솔 [메인페이지]](./laravel-wrapper/screenshot1.png)
-
-!['Laravel Wrapper' 관리자 콘솔 [관심고객 관리]](./laravel-wrapper/screenshot2.png)
-
-!['Laravel Wrapper' 관리자 콘솔 [당첨자 관리]](./laravel-wrapper/screenshot3.png)
-
 ## 링크
 
 ::: info
@@ -110,3 +116,7 @@ pageInfo: false
 [대청천 경동 리인뷰](http://xn--289at2jwsay4p9zfjsqdpi4d.com/)
 
 등 다수 분양 사이트 제작
+
+<script setup lang="ts">
+    import Screenshots from '@components/Screenshots.vue'
+</script>
