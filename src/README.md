@@ -11,14 +11,14 @@ heroFullScreen: true
 description: 잡다한 개발 경험을 담은 블로그
 projects:
   - icon: briefcase
-    name: Laravel Wrapper
+    name: 분양사이트 솔루션 개발
     desc: 분양 사이트를 위한 관심고객등록, 당첨자조회 등 관리자 콘솔 시스템
-    link: /projects/laravel-wrapper
+    link: /projects/outsourcing/laravel-wrapper
 
   - icon: briefcase
     name: 은평알리미
     desc: 은평구 지역 소식 공유 플랫폼
-    link: /projects/epalimi
+    link: /projects/outsourcing/epalimi
 
   - icon: link
     name: Github
