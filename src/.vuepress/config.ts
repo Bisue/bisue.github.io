@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
+import { getDirname, path } from "@vuepress/utils";
 
 export default defineUserConfig({
   title: "비수의 개발 창고",
@@ -79,6 +80,10 @@ export default defineUserConfig({
       ],
     }),
   ],
+
+  alias: {
+    "@components": path.resolve(getDirname(import.meta.url), "components"),
+  },
 
   // Enable it with pwa
   // shouldPrefetch: false,
