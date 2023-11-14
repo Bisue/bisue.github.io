@@ -1,0 +1,1 @@
+import{_ as s}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,h as n}from"./app-9f072362.js";const c={},r={class:"screenshots-container"};function _(e,a){return o(),t("div",r,[n(e.$slots,"default")])}const f=s(c,[["render",_],["__file","Screenshots.vue"]]);export{f as S};
