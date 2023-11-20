@@ -6,8 +6,8 @@
     <link>https://bisue.github.io/</link>
     <description>잡다한 개발 경험을 담은 블로그</description>
     <language>ko-KR</language>
-    <pubDate>Tue, 14 Nov 2023 08:55:14 GMT</pubDate>
-    <lastBuildDate>Tue, 14 Nov 2023 08:55:14 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Nov 2023 08:30:14 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Nov 2023 08:30:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -19,6 +19,21 @@
     <category>NPM 라이브러리 배포</category>
     <category>개발 일기</category>
     <category>실시간 채팅 앱 만들기 (Pusher)</category>
+    <item>
+      <title>코딩테스트 준비 팁</title>
+      <link>https://bisue.github.io/posts/tips/coding-test.html</link>
+      <guid>https://bisue.github.io/posts/tips/coding-test.html</guid>
+      <source url="https://bisue.github.io/rss.xml">코딩테스트 준비 팁</source>
+      <description>코딩테스트 준비 팁 자바스크립트(Node js) readline 파이썬 input 처럼 쓰기 const readline = require(&amp;quot;readline&amp;quot;) const { stdin, exit } = require(&amp;quot;process&amp;quot;) const rl = readline.createInterface({ input: stdin }) function input() { return new Promise(resolve =&amp;gt; { rl.question(&amp;quot;&amp;quot;, resolve) }) } async function main() { const n = Number(await input()) const nums = (await input()).split(&amp;quot; &amp;quot;).map(n =&amp;gt; Number(n)) console.log({ n, nums, }) } main().then(() =&amp;gt; { exit() })</description>
+      <category>개발 팁</category>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 코딩테스트 준비 팁</h1>
+<h3> 자바스크립트(Node js)</h3>
+<h4> readline 파이썬 input 처럼 쓰기</h4>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> C++</h3>
+<h4> 주요 STL</h4>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>#1 [Node] SSL unsafe legacy renegotiation</title>
       <link>https://bisue.github.io/posts/tips/1-SSL-unsafe-legacy-renegotiation.html</link>
