@@ -53,3 +53,10 @@ star: true
 내가 쓰는 오픈 소스 프로젝트에 쪼매난 i18n 지원 일부 수정이지만 PR을 보내고 머지된 걸 보니 나름 뿌듯하다.
 
 이제 블로그 테마는 못 바꿀 것 같다.
+
+### Contributor Rocks
+
+vuepress-theme-hope README 내 Contributors에 처음으로 내 프로필이 전시되었다!
+
+![Contributors](./1-first-contribution-to-open-source-project/contributors.png)
+![Contributors](https://contrib.rocks/image?repo=Bisue/bisue.github.io)
