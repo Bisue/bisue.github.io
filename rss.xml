@@ -6,8 +6,8 @@
     <link>https://bisue.github.io/</link>
     <description>잡다한 개발 경험을 담은 블로그</description>
     <language>ko-KR</language>
-    <pubDate>Thu, 23 Nov 2023 16:42:24 GMT</pubDate>
-    <lastBuildDate>Thu, 23 Nov 2023 16:42:24 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Nov 2023 16:52:42 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Nov 2023 16:52:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -285,6 +285,10 @@
 <p>라이브러리 레포지토리 돌아다니면서 README Contributors에 올라가있는 사람들을 보면 뭔가 멋있어 보였는데,<br>
 내가 쓰는 오픈 소스 프로젝트에 쪼매난 i18n 지원 일부 수정이지만 PR을 보내고 머지된 걸 보니 나름 뿌듯하다.</p>
 <p>이제 블로그 테마는 못 바꿀 것 같다.</p>
+<h3> Contributor Rocks</h3>
+<p>vuepress-theme-hope README 내 Contributors에 처음으로 내 프로필이 전시되었다!</p>
+<p><br>
+<img src="https://contrib.rocks/image?repo=Bisue/bisue.github.io" alt="Contributors" loading="lazy"></p>
 ]]></content:encoded>
     </item>
     <item>
