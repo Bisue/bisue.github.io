@@ -1,5 +1,5 @@
 ---
-title: 학교/공모전
+title: 대학 및 공모전
 icon: layer-group
 index: false
 article: false
