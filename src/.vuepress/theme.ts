@@ -104,6 +104,8 @@ export default hopeTheme({
     },
   },
 
+  hotReload: true,
+
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
