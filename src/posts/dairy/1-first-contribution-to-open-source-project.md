@@ -59,4 +59,3 @@ star: true
 vuepress-theme-hope README 내 Contributors에 처음으로 내 프로필이 전시되었다!
 
 ![Contributors](./1-first-contribution-to-open-source-project/contributors.png)
-![Contributors](https://contrib.rocks/image?repo=Bisue/bisue.github.io)
