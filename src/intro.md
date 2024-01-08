@@ -14,6 +14,8 @@ timeline: false
 
 ![Github Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Bisue&show_icons=true&theme=dark&count_private=true)
 
+[Github](https://github.com/Bisue)
+
 ## 연락처
 
 - bdu00chch@gmail.com
