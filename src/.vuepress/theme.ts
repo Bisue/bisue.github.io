@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 // import { hopeTheme } from "vuepress-theme-hope/perf";
 import { koNavbar } from "./navbar/index.js";
+import encryptConfig from "./encrypt/config.js";
 // import { koSidebarConfig } from "./sidebar/index.js";
 
 export default hopeTheme({
@@ -107,9 +108,7 @@ export default hopeTheme({
   hotReload: true,
 
   encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
+    config: encryptConfig,
   },
 
   plugins: {
@@ -153,9 +152,7 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
