@@ -51,7 +51,7 @@ NPM 공식 홈페이지에서 일반적인 회원가입처럼 가입할 수 있�
 [NPM](https://www.npmjs.com/)
 
 ::: info Public vs Private
-![NPM Pricing](./NPM-deployment-1/npm-pricing.png)
+![NPM Pricing](./1-NPM-deployment-1/npm-pricing.png)
 
 일반적으로 NPM 을 생각하면 Public 라이브러리만 떠오르지만, Private 라이브러리도 배포 가능하다.
 
@@ -126,7 +126,7 @@ npm init -y
 ```
 
 ::: info Semantic Versioning
-![Semantic Versioning(https://commons.wikimedia.org/wiki/File:SemanticVersioning.png)](./NPM-deployment-1/semantic-versioning.png)
+![Semantic Versioning(https://commons.wikimedia.org/wiki/File:SemanticVersioning.png)](./1-NPM-deployment-1/semantic-versioning.png)
 
 NPM에서의 버전은 Semantic Versioning을 따르는 것을 권장하고 있다.
 
@@ -785,7 +785,7 @@ npm i -D rimraf
 npm run build
 ```
 
-![dist 폴더](./NPM-deployment-1/dist.png)
+![dist 폴더](./1-NPM-deployment-1/dist.png)
 
 CommonJS, ESM, 소스맵, 타입 정보가 모두 생성됨을 확인할 수 있다.
 
