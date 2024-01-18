@@ -4,6 +4,7 @@ icon: layer-group
 index: false
 article: false
 timeline: false
+order: 3
 ---
 
 <AutoCatalog />
