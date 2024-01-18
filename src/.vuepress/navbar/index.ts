@@ -21,7 +21,9 @@ const srcPath = resolve(__dirname, "../../");
 
 const categories = getDirs(resolve(srcPath, "posts"));
 
-const projects = getDirs(resolve(srcPath, "projects")).reduce((proj, type) => {
+const projects: Record<string, string[]> = getDirs(
+  resolve(srcPath, "projects")
+).reduce((proj, type) => {
   proj[type] = getMarkdowns(resolve(srcPath, "projects", type));
 
   return proj;
