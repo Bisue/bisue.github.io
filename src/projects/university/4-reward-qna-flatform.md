@@ -12,7 +12,9 @@ pageInfo: false
 
 ## 스크린샷
 
-<Screenshots>
+<!-- <Screenshots> -->
+
+![메인 페이지](./reward-qna-flatform/main.png)
 
 <!-- <img src="./soldier/1_login.png" alt="로그인 페이지" title="로그인 페이지"/>
 <img src="./soldier/2_main.png" alt="메인 페이지" title="메인 페이지"/>
@@ -26,7 +28,7 @@ pageInfo: false
 <img src="./soldier/10_post.png" alt="커뮤니티 게시글 페이지" title="커뮤니티 게시글 페이지"/>
 <img src="./soldier/11_main.png" alt="메인 페이지" title="메인 페이지"/> -->
 
-</Screenshots>
+<!-- </Screenshots> -->
 
 ## 개요
 
@@ -44,7 +46,21 @@ pageInfo: false
 
 ## 주요 기능
 
-- 
+- 회원 관리
+  - 로그인/회원가입
+  - 비밀번호 찾기/재설정(이메일 인증 방식)
+- 학술 정보 QnA
+  - 각 학과의 과목별 QnA 게시판 기능
+    - 질문 CRUD (단, 질문이 달린 경우 삭제 불가)
+      - 파일 첨부 기능
+    - 답변 CRUD (단, 채택된 경우 삭제/수정 불가)
+      - 파일 첨부 기능
+    - 답변 추천 기능
+- 포인트 분배
+  - 매일 자정 당일의 총 장학금(포인트)을 당일 받은 추천수에 비례해 답변자들에게 분배
+- 포인트 사용
+  - 보유한 포인트를 사용해 제휴 상품의 쿠폰 구매
+  - 구매한 쿠폰은 마이페이지에서 구매 내역 및 쿠폰 번호 조회 가능
 
 ## 기술 스택
 
