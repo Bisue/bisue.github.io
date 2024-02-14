@@ -35,7 +35,22 @@ pageInfo: false
 
 ## 주요 기능
 
-- 
+- API 등록/수정
+  - JSON Schema를 이용한 API 명세 작성
+  - API 등록/수정 시 자동 API 검수
+    - 서버에서 대상 제 3자 API로 모의 호출 후, 응답 데이터를 기입된 명세 기반으로 검증
+- API 조회/구매
+  - JSON Schema를 이용한 API 명세 테이블 형식 조회
+  - API 상태 조회
+  - API 구매 및 키 조회
+  - 이상 API 신고
+- API 대시보드
+  - API 사용량 조회/제한
+  - API 에러 로그 조회
+- API 중계 서버
+  - API 키 발급
+  - API 사용량 집계 및 제한
+  - API 호출
 
 ## 기술 스택
 
