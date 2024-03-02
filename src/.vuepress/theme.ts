@@ -26,7 +26,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag"],
 
   blog: {
-    avatar: "https://avatars.githubusercontent.com/u/40070436?v=4",
+    avatar: "/assets/profile.jpg",
     roundAvatar: true,
     // sidebarDisplay: "always",
     articleInfo: ["Author", "Original", "Date", "Category", "Tag"],
