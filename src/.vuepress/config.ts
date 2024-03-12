@@ -3,6 +3,9 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
 import { getDirname, path } from "@vuepress/utils";
+import { addViteConfig } from "vuepress-shared";
+import tailwind from "tailwindcss";
+import autoprefixer from "autoprefixer";
 
 export default defineUserConfig({
   title: "비수의 개발 창고",
@@ -80,6 +83,16 @@ export default defineUserConfig({
       ],
     }),
   ],
+
+  extendsBundlerOptions: (config, app) => {
+    addViteConfig(config, app, {
+      css: {
+        postcss: {
+          plugins: [autoprefixer(), tailwind()],
+        },
+      },
+    });
+  },
 
   alias: {
     "@components": path.resolve(getDirname(import.meta.url), "components"),
