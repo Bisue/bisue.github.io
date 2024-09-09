@@ -65,9 +65,9 @@ export default hopeTheme({
 
       metaLocales: {
         author: "작성자",
-        lastUpdated: "마지막 수정",
+        lastUpdated: "마지막 수정 일시",
         readingTime: "읽는 시간",
-        toc: "이 페이지에서",
+        toc: "목차",
         date: "작성일",
       },
 
@@ -141,7 +141,7 @@ export default hopeTheme({
       demo: true,
       echarts: true,
       figure: true,
-      flowchart: true,
+      flowchart: false,
       gfm: true,
       imgLazyload: true,
       imgSize: true,
